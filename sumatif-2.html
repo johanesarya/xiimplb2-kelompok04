@@ -1,0 +1,64 @@
+  <!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PROJEK KOLABORASI</title>
+  <style>
+    :root{ --bg:#f7f9fc; --card:#ffffff; --accent:#1766a2; --muted:#555; }
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; margin:0; background:var(--bg); color:#111}
+    .wrap{max-width:760px; margin:48px auto; padding:24px}
+    .card{background:var(--card); border-radius:12px; box-shadow:0 8px 24px rgba(13,30,50,0.06); padding:28px}
+    h1{margin:0 0 6px; font-size:28px; color:var(--accent); letter-spacing:0.6px}
+    .subjects{font-weight:600; color:#222; margin-bottom:18px}
+    .subjects small{display:block; margin-top:6px; font-weight:400; color:var(--muted)}
+    .group-title{margin-top:20px; font-size:14px; color:var(--muted); text-transform:uppercase; letter-spacing:1px}
+    ul.members{padding-left:20px; margin:8px 0 0}
+    ul.members li{margin:8px 0; font-size:16px}
+    .media-section{margin-top:30px}
+    .media-section h2{font-size:20px; margin-bottom:10px; color:var(--accent)}
+    .file-title{font-weight:600; margin-top:18px; font-size:16px}
+    video{width:100%; border-radius:12px; margin:8px 0 16px}
+    .pdf-link{display:block; margin:8px 0 20px; font-size:16px; color:var(--accent); font-weight:600}
+    .footer{margin-top:20px; font-size:13px; color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>PROJEK KOLABORASI</h1>
+      <div class="subjects">MATEMATIKA - KODING &amp; AI - KEWIRAUSAHAAN
+      </div>
+
+      <div class="group-title">Nama Kelompok</div>
+      <ul class="members">
+        <li>philip</li>
+        <li>kayla</li>
+        <li>kesya</li>
+        <li>meylinda</li>
+        <li>rara</li>
+      </ul>
+
+      <div class="media-section">
+        <h2>Video dan Dokumen</h2>
+
+        <div class="file-title">FLAYER</div>
+        <video controls>
+          <source src="flayer.mp4" type="video/mp4" />
+        </video>
+
+        <div class="file-title">VIDEO PROMOSI</div>
+        <video controls>
+          <source src="vid-promosi.mp4" type="video/mp4" />
+        </video>
+
+        <div class="file-title">PEMBUKUAN(PDF)</div>
+        <a class="pdf-link" href="pembukuan.pdf" target="_blank">Buka File Pembukuan</a>
+      </div>
+
+      <div class="footer">TERIMAKASIH.</div>
+    </div>
+  </div>
+</body>
+</html>
